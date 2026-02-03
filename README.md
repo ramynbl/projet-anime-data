@@ -1,6 +1,37 @@
 # 🎬 Projet : Score Éditorial Anime
 "Comment identifier les pépites d'un catalogue sans tout regarder ?"
 
+## ⚙️ Installation et Configuration
+
+Pour lancer ce projet localement, suivez ces étapes :
+
+1. **Cloner le projet** :
+   ```bash
+   git clone [https://github.com/ton-pseudo/ton-projet.git](https://github.com/ton-pseudo/ton-projet.git)
+   cd ton-projet
+2. **Installer les dépendances : Assurez-vous d'avoir Python installé, puis lancez :**
+   ```bash
+   pip install -r requirements.txt
+3. **Lancer l'analyse : Ouvrez le notebook dans VS Code ou via Jupyter Lab :**
+   ```bash
+   jupyter notebook notebooks/main_analysis.ipynb
+---
+
+### Explication des imports (Pour ton rapport ou ta culture)
+
+Si tu dois expliquer dans ton notebook ou ton rapport **pourquoi** tu utilises ces lignes précises, voici le mémo technique :
+
+| Bibliothèque | Alias Classique | Rôle dans ton projet |
+| :--- | :--- | :--- |
+| **Pandas** | `import pandas as pd` | C'est le cœur du projet. Il sert à manipuler le tableau de données (Dataframe), nettoyer les colonnes et calculer le Score. L'alias `pd` est une convention universelle. |
+| **NumPy** | `import numpy as np` | Sert aux calculs mathématiques rapides. Pandas repose dessus. (Utilisé indirectement pour la gestion des nombres). |
+| **Matplotlib** | `import matplotlib.pyplot as plt` | La base de la visualisation. On l'utilise pour définir la taille des graphiques (`figsize`) et ajouter des titres/labels. |
+| **Seaborn** | `import seaborn as sns` | Une surcouche esthétique à Matplotlib. Elle permet de faire les scatterplots colorés et les histogrammes complexes en une ligne de code. |
+| **Plotly** | `import plotly.express as px` | Utilisé pour le bonus (Treemap). Permet de créer des graphiques **interactifs** (zoom, clic, survol). |
+| **OS** | `import os` | (Bibliothèque standard, pas d'installation). Permet de gérer les chemins de fichiers pour que ton notebook trouve les données, qu'il soit sur Mac ou PC. |
+
+Est-ce que cela complète bien ton dossier ? Si tu as créé le fichier `requirements.txt` et mis à jour le README, tu es officiellement prêt à publier ! 🚀
+
 ## 🎯 Problématique Métier
 Une plateforme de streaming souhaite mettre en avant des animes de qualité pour fidéliser ses abonnés.
 
