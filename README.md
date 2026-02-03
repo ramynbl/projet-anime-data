@@ -86,6 +86,24 @@ Fonctionnement : Un système de filtrage qui suggère des animes du même genre,
 
 Exemple : Si un utilisateur aime One Piece, on ne lui recommande pas juste un autre anime de pirates, mais un anime d'aventure fiable et régulier.
 
+### 6. 📱 Application de Recommandation (Streamlit)
+
+Pour rendre ce projet utilisable par des humains (et pas seulement des Data Scientists), j'ai développé une **Web App interactive** avec la librairie `Streamlit`.
+
+Cette interface permet de :
+* 🔎 **Explorer** le catalogue en filtrant par genre.
+* 📊 **Visualiser** graphiquement la différence entre Note Globale et Score Éditorial.
+* 🤖 **Tester le moteur de recommandation** en temps réel.
+
+**Aperçu de l'interface :**
+
+![Interface de l'Application Streamlit](app_preview.png)
+
+> **Comment lancer l'app localement ?**
+> ```bash
+> streamlit run app.py
+> ```
+
 ## 🚀 Résultats & Conclusion
 Ce projet prouve qu'avec des données limitées (Notes Min/Max/Moyenne), on peut affiner considérablement la sélection éditoriale.
 
@@ -93,6 +111,5 @@ Ce projet prouve qu'avec des données limitées (Notes Min/Max/Moyenne), on peut
 
 **Piège évité** : Les longues séries (Shonen fleuves) sont souvent surcotées par leur moyenne globale mais sanctionnées par notre score de régularité.
 
-**Perspectives** : Pour aller plus loin, on pourrait intégrer l'analyse de sentiment des commentaires textuels pour détecter pourquoi un épisode a été mal noté (Budget ? Scénario ? Filler ?).
 
 *Projet réalisé dans le cadre du module Python pour la Data Science.*
