@@ -99,6 +99,8 @@ Cette interface permet de :
 
 ![Interface de l'Application Streamlit](app_preview.png)
 
+**Lien de l'app : https://projet-anime-data.streamlit.app/**
+
 > **Comment lancer l'app localement ?**
 > ```bash
 > streamlit run app.py
