@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:8080';
+const API_URL = 'https://anime-finder-jrjf.onrender.com';
 
 // Fonction pour charger les animes depuis l'API
 async function loadAnimes() {
@@ -75,7 +75,7 @@ async function getRecommendations() {
 
 // reset des recommandations
 function resetSelections() {
-    
+
     document.getElementById('animeSelect').selectedIndex = 0;
     document.getElementById('resultats').innerHTML = '';
 }
