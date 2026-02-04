@@ -1,9 +1,9 @@
-const API_URL = 'http://127.0.0.1:8000';
+const API_URL = 'http://localhost:8080';
 
 // Fonction pour charger les animes depuis l'API
 async function loadAnimes() {
     try {
-        const response = await fetch(`${API_URL}/animes/`);
+        const response = await fetch(`${API_URL}/animes`);
         const animes = await response.json();
 
         const select = document.getElementById('animeSelect');
@@ -70,5 +70,15 @@ async function getRecommendations() {
         resDiv.innerHTML = '<div class="card">❌ Erreur lors de la récupération des recommandations.</div>';
     }
 }
+
+// Charger les animes au démarrage de la page
+
+// reset des recommandations
+function resetSelections() {
+    
+    document.getElementById('animeSelect').selectedIndex = 0;
+    document.getElementById('resultats').innerHTML = '';
+}
+
 
 loadAnimes();
