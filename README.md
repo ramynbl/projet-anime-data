@@ -2,6 +2,7 @@
 
 [![Voir l'Application](https://img.shields.io/badge/DEMO-Voir%20l'App%20en%20Ligne-FF4B4B?style=for-the-badge&logo=vercel)](https://projet-anime-data.vercel.app/)
 [![Slides](https://img.shields.io/badge/PDF-Voir%20la%20Présentation-0078D4?style=for-the-badge&logo=microsoftpowerpoint)](assets/Synthèse_du_Projet_Score_Éditorial_Anime.pptx)
+
 "Comment identifier les pépites d'un catalogue sans tout regarder ?"
 
 ## ⚙️ Installation et Configuration
