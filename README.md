@@ -1,6 +1,11 @@
 # 🎬 Projet : Score Éditorial Anime
 "Comment identifier les pépites d'un catalogue sans tout regarder ?"
 
+# 🎌 Projet : Score Éditorial Anime
+
+[![Voir l'Application](https://img.shields.io/badge/DEMO-Voir%20l'App%20en%20Ligne-FF4B4B?style=for-the-badge&logo=vercel)](https://projet-anime-data.vercel.app/)
+[![Slides](https://img.shields.io/badge/PDF-Voir%20la%20Présentation-0078D4?style=for-the-badge&logo=microsoftpowerpoint)](assets/Synthèse_du_Projet_Score_Éditorial_Anime.pptx)
+
 ## ⚙️ Installation et Configuration
 
 Pour lancer ce projet localement, suivez ces étapes :
@@ -97,7 +102,7 @@ Cette interface permet de :
 
 **Aperçu de l'interface :**
 
-![Interface de l'Application Streamlit](app_preview.png)
+![Interface de l'Application Streamlit](assets/app_preview.png)
 
 **Lien de l'app : https://projet-anime-data.streamlit.app/**
 
@@ -105,6 +110,31 @@ Cette interface permet de :
 > ```bash
 > streamlit run app.py
 > ```
+
+## 🚀 Architecture Fullstack & Déploiement
+
+Pour rendre ce projet accessible au grand public, j'ai développé une **Web App interactive** séparant la logique métier (Python) de l'interface utilisateur.
+
+**🔗 Tester l'application :** [https://projet-anime-data.vercel.app/](https://projet-anime-data.vercel.app/)
+
+### 🛠️ Stack Technique
+* **Backend (Le Cerveau) :** API développée avec **FastAPI** (Python). Elle héberge l'algorithme de recommandation et traite les données. Déployée sur **Render**.
+* **Frontend (Le Visage) :** Interface responsive en **HTML/CSS/JS** pur. Elle interroge l'API pour afficher les résultats dynamiquement. Déployée sur **Vercel**.
+
+**Fonctionnalités :**
+* 🔎 Recherche d'animes et filtrage par genre.
+* 📊 Affichage du Score Éditorial vs Note Globale.
+* 🤖 Recommandations "Safe" basées sur la régularité.
+
+> *Note : L'API étant hébergée sur une instance gratuite (Render), le premier chargement peut prendre ~50 secondes (Cold Start).*
+
+## 📊 Support de Présentation
+
+J'ai synthétisé la démarche, la méthodologie et les résultats clés dans une présentation détaillée.
+
+[![Aperçu des Slides](assets/slides_preview.png)](assets/Synthèse_du_Projet_Score_Éditorial_Anime.pptx)
+
+📥 **[Télécharger la présentation complète (.pptx)](assets/Synthèse_du_Projet_Score_Éditorial_Anime.pptx)**
 
 ## 🚀 Résultats & Conclusion
 Ce projet prouve qu'avec des données limitées (Notes Min/Max/Moyenne), on peut affiner considérablement la sélection éditoriale.
