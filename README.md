@@ -99,10 +99,6 @@ Cette interface permet de :
 * 📊 **Visualiser** graphiquement la différence entre Note Globale et Score Éditorial.
 * 🤖 **Tester le moteur de recommandation** en temps réel.
 
-**Aperçu de l'interface :**
-
-![Interface de l'Application Streamlit](assets/app_preview.png)
-
 **Lien de l'app : https://projet-anime-data.streamlit.app/**
 
 > **Comment lancer l'app localement ?**
@@ -113,6 +109,10 @@ Cette interface permet de :
 ## 🚀 Architecture Fullstack & Déploiement
 
 Pour rendre ce projet accessible au grand public, j'ai développé une **Web App interactive** séparant la logique métier (Python) de l'interface utilisateur.
+
+**Aperçu de l'interface :**
+
+![Interface de l'Application Streamlit](assets/app_preview.png)
 
 **🔗 Tester l'application :** [https://projet-anime-data.vercel.app/](https://projet-anime-data.vercel.app/)
 
@@ -131,7 +131,10 @@ Pour rendre ce projet accessible au grand public, j'ai développé une **Web App
 
 J'ai synthétisé la démarche, la méthodologie et les résultats clés dans une présentation détaillée.
 
-[![Aperçu des Slides](assets/slides_preview.png)](assets/Synthèse_du_Projet_Score_Éditorial_Anime.pptx)
+<a href="assets/Synthèse_du_Projet_Score_Éditorial_Anime.pptx">
+  <img src="assets/slides_preview.png" alt="Aperçu des Slides" width="400" max-width="100%">
+</a>
+
 
 📥 **[Télécharger la présentation complète (.pptx)](assets/Synthèse_du_Projet_Score_Éditorial_Anime.pptx)**
 
